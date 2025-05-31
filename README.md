@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+AI Emotion Mirror
 
-## Project info
+A modern, real-time facial emotion recognition and analytics platform built with React, TypeScript, and advanced AI models. Detect, analyze, and visualize human emotions from webcam input, with a beautiful, interactive UI 
 
-**URL**: https://lovable.dev/projects/af482039-00c6-4ebf-b03b-8b1b9653c268
+Features
 
-## How can I edit this code?
+Real-Time Emotion Detection:
 
-There are several ways of editing your application.
+Instantly recognizes emotions from live webcam video using state-of-the-art AI models (local and cloud-based).
+Multi-Model Support:
 
-**Use Lovable**
+Integrates Hugging Face models, face-api.js, and TensorFlow.js for flexible, accurate emotion recognition.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/af482039-00c6-4ebf-b03b-8b1b9653c268) and start prompting.
+Speech & Sentiment Analysis:
+Detects emotion from both facial expressions and spoken words.
 
-Changes made via Lovable will be committed automatically to this repo.
+Analytics Dashboard:
+Visualizes emotion trends, confidence scores, and session statistics.
 
-**Use your preferred IDE**
+Customizable Avatars:
+Dynamic avatars reflect detected emotions in real time.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Music & Image Generation:
+Generates music and images based on detected emotions.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Privacy First:
+All processing can be done locally in the browser—no images are sent to a server unless you enable cloud models.
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Supported Emotions
 
-# Step 3: Install the necessary dependencies.
-npm i
+Happy
+Sad
+Angry
+Surprised
+Disgusted
+Fearful
+Neutral
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Tech Stack
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/af482039-00c6-4ebf-b03b-8b1b9653c268) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+React (Vite)
+TypeScript
+Tailwind CSS
+face-api.js / TensorFlow.js
+Hugging Face Inference API
+@radix-ui and shadcn-ui components
